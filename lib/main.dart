@@ -1,3 +1,4 @@
+import 'package:auth/pages/authScreen.dart';
 import 'package:auth/pages/fireScree.dart';
 import 'package:auth/pages/learnScreen.dart';
 import 'package:auth/pages/userPage.dart';
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.yellow,
           accentColor: Colors.yellow,
         ),
-        home: LearnScreen(),
+        home: AuthScreen(),
       ),
     );
   }
